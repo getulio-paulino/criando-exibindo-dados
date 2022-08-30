@@ -4,12 +4,16 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name: 'lv-tarefas',
+  data(){
+    return{
+      titulo: 'Listagem de tarefas',
+      subtitulo: 'Defina uma descrição',
+      tarefas: []
+    }
   }
 }
 </script>
